@@ -71,7 +71,7 @@ body {
     font-size: 28px;
 }
 
-/* Garis dekorasi di bawah judul */
+/* Garis bawah di Judul */
 .judul h2::after {
     content: '';
     display: block;
@@ -91,7 +91,7 @@ body {
     margin-bottom: 20px; /* Jarak antara paragraf 1 dan paragraf 2 */
 }
 
-/* Menghilangkan jarak bawah pada paragraf terakhir agar rapi */
+/* Menghilangkan jarak bawah pada paragraf terakhir*/
 .deskripsi p:last-child {
     margin-bottom: 0;
 }
@@ -161,14 +161,14 @@ body {
     margin-bottom: 10px;
 }
 
-/* Gaya untuk Nama Jurusan/Gelar */
+
 .pendidikan-item h3 {
     margin: 5px 0;
     font-size: 18px;
     color: #222222;
 }
 
-/* Kontainer untuk menyelaraskan Gambar Logo dan Nama Instansi */
+
 .pendidikan-container {
     display: flex;
     align-items: center;
@@ -178,7 +178,7 @@ body {
     width: 100%;
 }
 
-/* Pengaturan khusus untuk Gambar Logo */
+
 .school-logo-img {
     width: 30px; 
     height: 30px; 
@@ -193,7 +193,7 @@ body {
     text-align: left; 
 }
 
-/* Pengaturan dasar halaman */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -201,7 +201,7 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Memposisikan kontainer di tengah layar */
+
 .pembungkus-tengah {
     display: flex;
     justify-content: center;
@@ -209,26 +209,24 @@ body {
     min-height: 100vh;
 }
 
-/* Kotak latar belakang khusus untuk ke-3 logo */
+
 .kontainer-logo {
     /* Latar belakang sesuai permintaan */
     background-color: rgb(221, 203, 179); 
     
-    /* Membuat logo berderet ke samping */
+   
     display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Jarak antara satu logo dengan logo lainnya */
-    
-    /* Ruang di dalam kotak agar logo tidak menabrak tepi pinggir */
+    gap: 20px; /* Jarak antara logo */
     padding: 2rem; 
     border-radius: 8px; /* Memberikan sedikit lengkungan pada sudut kotak */
 }
 
-/* Pengaturan ukuran logo (Ukuran Kecil & Statis) */
+
 .logo-kecil {
-    width: 40px; /* Lebar logo */
-    height: 40px; /* Tinggi logo */
+    width: 40px;
+    height: 40px; 
     object-fit: contain; /* Memastikan gambar tidak gepeng */
     border-radius: 4px; /* Opsional: memberikan lengkungan kecil pada gambar logo */
 }
